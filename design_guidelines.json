@@ -1,0 +1,154 @@
+{
+  "brand_identity": {
+    "name": "Circle Concept Higher Secondary School",
+    "short_name": "Circle Concept",
+    "mission": "Forging the next generation of scientists and engineers through disciplined excellence.",
+    "tone": "Authoritative, Modern, Aspirational, Disciplined, Trustworthy",
+    "archetype": "The Performance Pro (Academic Edition)"
+  },
+  "design_philosophy": {
+    "theme": "Light Mode Primary with Deep Navy Authority",
+    "core_concept": "The Golden Ratio of Education - where structure meets brilliance.",
+    "visual_style": "Modern Swiss Academic. High contrast, sharp typography, generous whitespace, disciplined grids.",
+    "anti_patterns": [
+      "No generic 'school blue' - use deep Navy only.",
+      "No comic sans or playful fonts.",
+      "No cluttered layouts - every element must breathe.",
+      "No low-resolution images."
+    ]
+  },
+  "typography": {
+    "font_family": {
+      "heading": "Outfit, sans-serif",
+      "body": "Plus Jakarta Sans, sans-serif",
+      "accent": "JetBrains Mono, monospace"
+    },
+    "scale": {
+      "h1": "text-5xl md:text-7xl font-bold tracking-tight leading-none",
+      "h2": "text-4xl md:text-5xl font-bold tracking-tight",
+      "h3": "text-2xl md:text-3xl font-semibold tracking-normal",
+      "body_lg": "text-lg md:text-xl leading-relaxed text-slate-600",
+      "body_base": "text-base leading-relaxed text-slate-600",
+      "caption": "text-sm font-medium tracking-wider text-slate-500 uppercase"
+    },
+    "imports": [
+      "@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700;900&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');"
+    ]
+  },
+  "colors": {
+    "primary": {
+      "DEFAULT": "#1a365d",
+      "foreground": "#ffffff",
+      "50": "#f0f4ff",
+      "100": "#e0e7ff",
+      "200": "#c7d2fe",
+      "300": "#a5b4fc",
+      "400": "#818cf8",
+      "500": "#6366f1",
+      "600": "#4f46e5",
+      "700": "#4338ca",
+      "800": "#3730a3",
+      "900": "#1a365d",
+      "950": "#172554"
+    },
+    "secondary": {
+      "DEFAULT": "#eab308",
+      "foreground": "#1a365d",
+      "50": "#fefce8",
+      "100": "#fef9c3",
+      "200": "#fef08a",
+      "300": "#fde047",
+      "400": "#facc15",
+      "500": "#eab308",
+      "600": "#ca8a04",
+      "700": "#a16207",
+      "800": "#854d0e",
+      "900": "#713f12"
+    },
+    "background": {
+      "DEFAULT": "#ffffff",
+      "subtle": "#f8fafc",
+      "dark": "#0f172a"
+    },
+    "surface": {
+      "card": "#ffffff",
+      "overlay": "rgba(26, 54, 93, 0.9)"
+    },
+    "border": {
+      "DEFAULT": "#e2e8f0",
+      "active": "#1a365d"
+    }
+  },
+  "layout_strategy": {
+    "container": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+    "spacing": {
+      "section_padding": "py-20 md:py-32",
+      "element_gap": "gap-6 md:gap-12"
+    },
+    "grids": {
+      "bento_features": "grid grid-cols-1 md:grid-cols-3 gap-6",
+      "academic_cards": "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6",
+      "hero_split": "grid grid-cols-1 lg:grid-cols-2 gap-12 items-center"
+    }
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-yellow-500 text-blue-950 hover:bg-yellow-400 font-bold rounded-full px-8 py-3 transition-transform hover:scale-105 active:scale-95 shadow-lg shadow-yellow-500/20",
+      "secondary": "bg-transparent border-2 border-white text-white hover:bg-white/10 font-semibold rounded-full px-8 py-3 transition-colors",
+      "outline": "bg-transparent border-2 border-blue-900 text-blue-900 hover:bg-blue-50 font-semibold rounded-full px-8 py-3 transition-colors",
+      "ghost": "text-blue-900 hover:bg-blue-50 font-medium rounded-lg px-4 py-2 transition-colors"
+    },
+    "cards": {
+      "academic": "bg-white border border-slate-100 rounded-2xl p-8 hover:shadow-2xl hover:border-yellow-500/50 transition-all duration-300 group relative overflow-hidden",
+      "feature": "bg-slate-50 border border-slate-200 rounded-2xl p-8 hover:bg-white hover:shadow-xl transition-all duration-300"
+    },
+    "navigation": {
+      "wrapper": "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
+      "style": "backdrop-blur-md bg-white/80 border-b border-slate-200/50 supports-[backdrop-filter]:bg-white/60",
+      "link": "text-sm font-medium text-slate-600 hover:text-blue-900 transition-colors"
+    }
+  },
+  "assets": {
+    "images": {
+      "hero_main": "https://images.pexels.com/photos/15517939/pexels-photo-15517939.jpeg",
+      "hero_alt": "https://images.pexels.com/photos/5147365/pexels-photo-5147365.jpeg",
+      "campus_modern": "https://images.pexels.com/photos/33795299/pexels-photo-33795299.jpeg",
+      "academic_math": "https://images.pexels.com/photos/6238050/pexels-photo-6238050.jpeg",
+      "academic_science": "https://images.pexels.com/photos/8539724/pexels-photo-8539724.jpeg",
+      "student_life": "https://images.pexels.com/photos/33745700/pexels-photo-33745700.jpeg",
+      "library_quiet": "https://images.pexels.com/photos/16504587/pexels-photo-16504587.jpeg"
+    },
+    "icons": {
+      "library": "lucide-react: BookOpen",
+      "lab": "lucide-react: FlaskConical",
+      "hostel": "lucide-react: Home",
+      "transport": "lucide-react: Bus",
+      "trophy": "lucide-react: Trophy",
+      "target": "lucide-react: Target"
+    }
+  },
+  "motion": {
+    "libraries": ["framer-motion", "lenis"],
+    "preferences": {
+      "reduced_motion": "respect-user-preference",
+      "hero_animation": "initial fade-in-up staggered",
+      "scroll_animation": "reveal-on-scroll with small y-axis translation"
+    }
+  },
+  "instructions_to_main_agent": [
+    "1. Setup: Install 'framer-motion', 'lucide-react', 'clsx', 'tailwind-merge'.",
+    "2. Global CSS: Add the Google Fonts import to index.css immediately.",
+    "3. Theme: Ensure 'bg-white' is the default body background, text is 'slate-900'.",
+    "4. Hero Section: Use the 'hero_main' image with a heavy linear-gradient overlay (from 'blue-950/90' to 'blue-900/40') to ensure text readability.",
+    "5. Navbar: Implement a sticky navbar that changes style on scroll (transparent at top, solid/glass on scroll).",
+    "6. Bento Grid: Use for the 'Why Choose Us' or 'Features' section. Mix large and small cards.",
+    "7. Forms: Use standard HTML/React forms but styled to match the 'Input' component from Shadcn (clean borders, focus rings).",
+    "8. Footer: Must be Deep Navy ('bg-blue-950') with White text and Gold accents.",
+    "9. Accessibility: Ensure all text on images has a sufficient background overlay.",
+    "10. Performance: Use lazy loading for images below the fold."
+  ],
+  "UNIVERSAL_GUIDELINES": {
+    "do_not_use": ["gradients_on_text", "comic_sans", "pure_black", "centered_text_blocks_longer_than_3_lines"],
+    "must_use": ["consistent_spacing_variables", "semantic_html", "data-testid_attributes"]
+  }
+}
